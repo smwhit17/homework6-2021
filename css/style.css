@@ -86,6 +86,7 @@ a:visited{
         justify-content: space-between;
         position: sticky;
         top: 0;
+        left: 0;
     }
     .nav_links{
         flex-direction: row;
@@ -110,13 +111,11 @@ a:visited{
     body{
         background-image: none;
     }
-    /* body > header{
-        flex-direction: column;
-    } */
+    
     .nav_links{
         display: flex;
         flex-direction: row;
-        
+        justify-content: space-around;
     }
     
     .pricing{
