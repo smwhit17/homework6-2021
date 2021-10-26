@@ -112,10 +112,14 @@ a:visited{
         background-image: none;
     }
     
+    nav{
+        width: 100%;
+    }
     .nav_links{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        
     }
     
     .pricing{
